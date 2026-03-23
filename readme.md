@@ -143,47 +143,15 @@ Sample outputs of the system are stored inside the `outputs/` folder.
 
 Below are some results from the system:
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="outputs/1.png" width="380"><br>
-      <sub>Result 1</sub>
-    </td>
-    <td align="center">
-      <img src="outputs/2.png" width="380"><br>
-      <sub>Result 2</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="outputs/3.png" width="380"><br>
-      <sub>Result 3</sub>
-    </td>
-    <td align="center">
-      <img src="outputs/4.png" width="380"><br>
-      <sub>Result 4</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="outputs/5.png" width="380"><br>
-      <sub>Result 5</sub>
-    </td>
-    <td align="center">
-      <img src="outputs/6.png" width="380"><br>
-      <sub>Result 6</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="outputs/7.png" width="380"><br>
-      <sub>Result 7</sub>
-    </td>
-    <td align="center">
-      <img src="outputs/8.png" width="380"><br>
-      <sub>Result 8</sub>
-    </td>
-  </tr>
-</table>
+## Sample Outputs
+
+<img src="outputs/1.png" width="500"><br>Result 1<br><br>
+<img src="outputs/2.png" width="500"><br>Result 2<br><br>
+<img src="outputs/3.png" width="500"><br>Result 3<br><br>
+<img src="outputs/4.png" width="500"><br>Result 4<br><br>
+<img src="outputs/5.png" width="500"><br>Result 5<br><br>
+<img src="outputs/6.png" width="500"><br>Result 6<br><br>
+<img src="outputs/7.png" width="500"><br>Result 7<br><br>
+<img src="outputs/8.png" width="500"><br>Result 8<br><br>
 
 > **Note:** These outputs demonstrate how the pipeline works end-to-end, from aspect extraction to feature mapping and sentiment prediction.
