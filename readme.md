@@ -146,20 +146,44 @@ Below are some results from the system:
 
 <table>
   <tr>
-    <td><img src="outputs/1.png" width="380"><br><sub>Result 1</sub></td>
-    <td><img src="outputs/2.png" width="380"><br><sub>Result 2</sub></td>
+    <td align="center">
+      <img src="outputs/1.png" width="380"><br>
+      <sub>Result 1</sub>
+    </td>
+    <td align="center">
+      <img src="outputs/2.png" width="380"><br>
+      <sub>Result 2</sub>
+    </td>
   </tr>
   <tr>
-    <td><img src="outputs/3.png" width="380"><br><sub>Result 3</sub></td>
-    <td><img src="outputs/4.png" width="380"><br><sub>Result 4</sub></td>
+    <td align="center">
+      <img src="outputs/3.png" width="380"><br>
+      <sub>Result 3</sub>
+    </td>
+    <td align="center">
+      <img src="outputs/4.png" width="380"><br>
+      <sub>Result 4</sub>
+    </td>
   </tr>
   <tr>
-    <td><img src="outputs/5.png" width="380"><br><sub>Result 5</sub></td>
-    <td><img src="outputs/6.png" width="380"><br><sub>Result 6</sub></td>
+    <td align="center">
+      <img src="outputs/5.png" width="380"><br>
+      <sub>Result 5</sub>
+    </td>
+    <td align="center">
+      <img src="outputs/6.png" width="380"><br>
+      <sub>Result 6</sub>
+    </td>
   </tr>
   <tr>
-    <td><img src="outputs/7.png" width="380"><br><sub>Result 7</sub></td>
-    <td><img src="outputs/8.png" width="380"><br><sub>Result 8</sub></td>
+    <td align="center">
+      <img src="outputs/7.png" width="380"><br>
+      <sub>Result 7</sub>
+    </td>
+    <td align="center">
+      <img src="outputs/8.png" width="380"><br>
+      <sub>Result 8</sub>
+    </td>
   </tr>
 </table>
 
