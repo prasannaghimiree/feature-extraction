@@ -1,2 +1,6 @@
 pyabsa_absa_project/.venv/
 pyabsa_absa_project/checkpoints/
+custom_feature_sentiment_extraction/checkpoints/
+custom_feature_sentiment_extraction/models
+custom_feature_sentiment_extraction/test_pyabsa.py
+custom_feature_sentiment_extraction/checkpoints.json
