@@ -141,7 +141,6 @@ Input: "The display is bright but battery drains fast"
 
 Sample outputs of the system are stored inside the `outputs/` folder.
 
-
 Below are some results from the system:
 
 <table>
@@ -187,4 +186,4 @@ Below are some results from the system:
   </tr>
 </table>
 
-> Note: These outputs demonstrate how the pipeline works end-to-end, from aspect extraction to feature mapping and sentiment prediction.
+> **Note:** These outputs demonstrate how the pipeline works end-to-end, from aspect extraction to feature mapping and sentiment prediction.
