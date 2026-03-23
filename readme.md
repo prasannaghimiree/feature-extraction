@@ -134,7 +134,7 @@ Input: "The display is bright but battery drains fast"
   {"aspect": "display", "feature": "display", "sentiment": "positive"},
   {"aspect": "battery", "feature": "battery", "sentiment": "negative"}
 ]
-```
+
 
 ---
 
