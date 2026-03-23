@@ -129,7 +129,7 @@ User input → PyABSA extracts aspects → Feature mapper predicts feature → S
 
 ### Example Output
 Input: "The display is bright but battery drains fast"
-```json
+
 [
   {"aspect": "display", "feature": "display", "sentiment": "positive"},
   {"aspect": "battery", "feature": "battery", "sentiment": "negative"}
