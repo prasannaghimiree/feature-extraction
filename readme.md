@@ -144,13 +144,23 @@ Sample outputs of the system are stored inside the `outputs/` folder.
 
 Below are some results from the system:
 
-![Output 1](outputs/1.png)
-![Output 2](outputs/2.png)
-![Output 3](outputs/3.png)
-![Output 4](outputs/4.png)
-![Output 5](outputs/5.png)
-![Output 6]outputs/6.png)
-![Output 7](outputs/7.png)
-![Output 8](outputs/8.png)
+<table>
+  <tr>
+    <td><img src="outputs/1.png" width="380"><br><sub>Result 1</sub></td>
+    <td><img src="outputs/2.png" width="380"><br><sub>Result 2</sub></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/3.png" width="380"><br><sub>Result 3</sub></td>
+    <td><img src="outputs/4.png" width="380"><br><sub>Result 4</sub></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/5.png" width="380"><br><sub>Result 5</sub></td>
+    <td><img src="outputs/6.png" width="380"><br><sub>Result 6</sub></td>
+  </tr>
+  <tr>
+    <td><img src="outputs/7.png" width="380"><br><sub>Result 7</sub></td>
+    <td><img src="outputs/8.png" width="380"><br><sub>Result 8</sub></td>
+  </tr>
+</table>
 
 > Note: These outputs demonstrate how the pipeline works end-to-end, from aspect extraction to feature mapping and sentiment prediction.
