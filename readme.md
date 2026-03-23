@@ -73,6 +73,48 @@ Final dataset: `aspect_semantic_dataset_canonicalized.csv`
 
 ---
 
+## Dataset Labels
+
+The dataset is structured as:
+
+
+raw_aspect | sentence | label | label_id
+
+
+Where:
+
+- `raw_aspect` → extracted aspect text  
+- `sentence` → full sentence context  
+- `label` →  
+  - for feature model → canonical feature  
+  - for sentiment model → sentiment label  
+- `label_id` → numeric encoding of label  
+
+---
+
+### Feature Mapper Labels
+
+- multi-class classification  
+- ~100+ canonical feature classes  
+- examples:
+  - battery  
+  - camera  
+  - display  
+  - performance  
+
+Because of large number of classes, class imbalance exists.
+
+---
+
+### Sentiment Labels
+
+- 3 classes:
+  - positive → 2  
+  - neutral → 1  
+  - negative → 0  
+
+---
+
 ## Model Architecture
 
 Both models use the following input format:
