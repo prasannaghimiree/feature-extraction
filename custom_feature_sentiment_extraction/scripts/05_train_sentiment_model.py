@@ -22,9 +22,6 @@ from transformers import (
     set_seed,
 )
 
-# =========================
-# CONFIG
-# =========================
 MODEL_NAME = "bert-base-uncased"
 DATA_PATH = "data/processed/sentiment_train_full.csv"
 LABEL_MAP_PATH = "data/processed/sentiment_label_map.json"
@@ -38,9 +35,7 @@ SEED = 42
 VAL_SIZE = 0.1
 
 
-# =========================
 # SEED
-# =========================
 def set_all_seeds(seed):
     set_seed(seed)
     random.seed(seed)
@@ -50,20 +45,19 @@ def set_all_seeds(seed):
         torch.cuda.manual_seed_all(seed)
 
 
-# =========================
 # CLEAN TEXT
-# =========================
 def clean_text(x):
+    #checking if value is missing
     if pd.isna(x):
         return ""
+    #removing  extra spaces and making lowercase
     x = str(x).lower().strip()
+    # replacing one or more whitespace into a single space
     x = re.sub(r"\s+", " ", x)
     return x
 
 
-# =========================
-# LOAD LABEL MAP
-# =========================
+#reads label mapping json file
 def load_label_map(path):
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -72,9 +66,7 @@ def load_label_map(path):
     return label2id, id2label
 
 
-# =========================
-# DATASET
-# =========================
+# custom dataset class
 class SentimentDataset(Dataset):
     def __init__(self, df, tokenizer):
         self.df = df.reset_index(drop=True)
@@ -111,9 +103,8 @@ class SentimentDataset(Dataset):
         return item
 
 
-# =========================
 # MODEL
-# =========================
+
 class BertAttentionSentimentClassifier(nn.Module):
     def __init__(self, model_name, num_labels):
         super().__init__()
@@ -176,9 +167,7 @@ class BertAttentionSentimentClassifier(nn.Module):
         }
 
 
-# =========================
 # TRAINER
-# =========================
 class CustomTrainer(Trainer):
     def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
         outputs = model(**inputs)
@@ -186,9 +175,7 @@ class CustomTrainer(Trainer):
         return (loss, outputs) if return_outputs else loss
 
 
-# =========================
-# METRICS
-# =========================
+
 def compute_metrics(pred):
     predictions = pred.predictions
 
@@ -208,9 +195,8 @@ def compute_metrics(pred):
     }
 
 
-# =========================
 # MAIN
-# =========================
+
 def main():
     set_all_seeds(SEED)
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -316,6 +302,7 @@ def main():
 
     print("\nEvaluation:")
     print(trainer.evaluate())
+
 
     trainer.save_model(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
