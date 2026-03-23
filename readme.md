@@ -1,6 +1,6 @@
-#Custom Feature Semantic Extraction using BERT Architecture
+# Custom Feature Semantic Extraction using BERT Architecture
 
-## Note: This readme is basically consists oftechniques used under custom_feature_semantic_extraction directory.
+**Note:** This README mainly describes the techniques used under the `custom_feature_semantic_extraction` directory.
 
 This project is an attempt to understand product reviews in a more structured and meaningful way using transformer-based models. Instead of treating a review as a single block of text, the system tries to break it down into **features (aspects)** and analyze sentiment for each feature separately.
 
@@ -134,6 +134,7 @@ Input: "The display is bright but battery drains fast"
   {"aspect": "display", "feature": "display", "sentiment": "positive"},
   {"aspect": "battery", "feature": "battery", "sentiment": "negative"}
 ]
+```
 
 ---
 
@@ -144,14 +145,11 @@ Sample outputs of the system are stored inside the `outputs/` folder.
 Below are some results from the system:
 
 ## Sample Outputs
-
-<img src="outputs/1.png" width="500"><br>Result 1<br><br>
-<img src="outputs/2.png" width="500"><br>Result 2<br><br>
-<img src="outputs/3.png" width="500"><br>Result 3<br><br>
-<img src="outputs/4.png" width="500"><br>Result 4<br><br>
-<img src="outputs/5.png" width="500"><br>Result 5<br><br>
-<img src="outputs/6.png" width="500"><br>Result 6<br><br>
-<img src="outputs/7.png" width="500"><br>Result 7<br><br>
-<img src="outputs/8.png" width="500"><br>Result 8<br><br>
-
+| Left Column Results | Right Column Results |
+| :---: | :---: |
+| <img src="outputs/1.png" width="400"><br><b>Result 1</b> | <img src="outputs/2.png" width="400"><br><b>Result 2</b> |
+| <img src="outputs/3.png" width="400"><br><b>Result 3</b> | <img src="outputs/4.png" width="400"><br><b>Result 4</b> |
+| <img src="outputs/5.png" width="400"><br><b>Result 5</b> | <img src="outputs/6.png" width="400"><br><b>Result 6</b> |
+| <img src="outputs/7.png" width="400"><br><b>Result 7</b> | <img src="outputs/8.png" width="400"><br><b>Result 8</b> |
+| <img src="outputs/9.png" width="400"><br><b>Result 9</b> | |
 > **Note:** These outputs demonstrate how the pipeline works end-to-end, from aspect extraction to feature mapping and sentiment prediction.
