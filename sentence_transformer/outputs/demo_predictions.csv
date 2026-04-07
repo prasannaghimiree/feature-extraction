@@ -1,0 +1,43 @@
+test_case,raw_aspect,sentence,prediction,confidence
+1,frontcamara,The frontcamara captures clean selfies even in indoor lighting.,camera,0.5459
+2,power,This phone has enough power even after using it all day.,charging_speed,0.3333
+3,power backup,Power backup is decent and it survives a full working day.,battery_life,0.646
+4,night shots,Night shots come out grainy and full of noise.,low_light_photography,0.5601
+5,sunlight use,Using it outside is difficult because the screen becomes hard to read.,low_light_photography,0.3991
+6,lag,It stutters when switching between apps and feels slow sometimes.,performance_issues,0.6794
+7,heating,The device gets warm quickly while gaming for just a few minutes.,heat,0.7735
+8,looks premium,It feels elegant in hand and gives off a premium vibe.,appearance,0.5287
+9,in hand feel,The handset feels bulky and uncomfortable after long use.,ergonomics,0.587
+10,unlock,Unlocking with the finger scanner is quick and reliable.,face_unlock,0.4421
+11,charging,It goes from almost dead to usable in a very short time.,charging_speed,0.7695
+12,speaker,"Audio is loud enough, but it gets distorted at high volume.",speakers,0.8319
+13,selfie cam,Selfie cam smooths faces too much and loses detail.,selfie_camera,0.7551
+14,main shooter,The main shooter produces sharp photos with natural colors.,gaming_performance,0.3414
+15,touch response,The screen reacts instantly when typing or scrolling.,touchscreen,0.6289
+16,software feel,Animations are fluid and moving through menus feels smooth.,material_feel,0.5046
+17,storage,I ran out of space quickly after installing a few apps and videos.,storage,0.8843
+18,memory,Keeping many apps open makes the phone reload them less often.,ram,0.6523
+19,sim tray,The sim tray is too flimsy and difficult to remove.,sim_card_slot,0.671
+20,build,The back panel feels cheap although the frame looks solid.,build_quality,0.7849
+21,body,Its slim body makes it comfortable to hold with one hand.,slimness,0.5259
+22,value,"For this price, the overall package feels worth it.",overall_value,0.425
+23,brand trust,I bought it mainly because this brand is usually dependable.,quality,0.5895
+24,model choice,"Compared to the previous model, this one feels much faster.",model_comparison,0.6875
+25,connectivity,WiFi drops randomly and mobile data switching is slow.,connectivity,0.7589
+26,signal,Network reception is weak inside buildings.,signal_strength,0.6774
+27,video,Video recording is stable but details look soft.,slow_motion_video,0.6107
+28,4k,"The phone shoots 4k nicely, but low-light clips are poor.",video_resolution,0.6583
+29,notification,I keep missing alerts because the indicator is too subtle.,notification_light,0.7045
+30,ui,The interface feels cluttered with too many unnecessary apps.,ui,0.7889
+31,daily use,"For calls, browsing, and messaging, it performs just fine.",daily_use,0.78
+32,gaming,"Heavy games run, but frame drops appear after a while.",gaming_performance,0.8031
+33,camera bump,It wobbles on the table because of the large camera bump.,camera_settings,0.5045
+34,portrait shots,"Portrait shots separate the subject well, but edge detection fails sometimes.",camera,0.3496
+35,brightness,Brightness is not enough outdoors under strong sun.,low_light_photography,0.5752
+36,color tone,"The display looks vibrant, though colors feel slightly oversaturated.",color,0.6109
+37,speed,Everything opens instantly and the phone feels snappy.,performance_issues,0.6075
+38,camera in dark,Photos taken in dark rooms lose detail and look muddy.,low_light_photography,0.6928
+39,battery in standby,"Even on standby, the battery drops more than expected overnight.",battery_life,0.6088
+40,phone weight,It is lighter than expected and easy to carry in hand.,weight,0.7374
+41,hot,I like overall features but it gets hot very soon,heat,0.7868
+42,application,I like overall features but there are too many downloaded application which is useless,software,0.6839

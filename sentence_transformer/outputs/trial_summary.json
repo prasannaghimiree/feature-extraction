@@ -1,0 +1,17 @@
+{
+  "trial_id": 71,
+  "model_name": "sentence-transformers/all-MiniLM-L12-v2",
+  "batch_size": 8,
+  "learning_rate": 5e-05,
+  "weight_decay": 0.05,
+  "epochs_requested": 10,
+  "epochs_completed": 9,
+  "best_epoch": 6,
+  "best_train_accuracy": 0.755177,
+  "best_train_macro_f1": 0.705319,
+  "best_train_weighted_f1": 0.780001,
+  "best_val_accuracy": 0.699454,
+  "best_val_macro_f1": 0.652403,
+  "best_val_weighted_f1": 0.738633,
+  "trial_dir": "models/feature_mapper_semantic_tuned\\trial_71"
+}
